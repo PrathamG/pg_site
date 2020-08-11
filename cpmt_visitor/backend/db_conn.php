@@ -2,10 +2,11 @@
 	//db_conn.php
 	//File contains script to connect to DB. $mydb is the mysqli object.
 	header('Content-Type: text/html; charset=utf-8');
-    $server = '';
-	$user = '';
-    $password = "DkP0ttqCQBN7t";
-	$dbname = 'epiz_25595508_db1';
+	$config = include('config.php');
+    $server = $config['server'];
+	$user = $config['user'];
+    $password = $config['password'];
+	$dbname = $config['dbname'];
 
 	$mydb = new mysqli($server, $user, $password, $dbname);
 
