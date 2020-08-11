@@ -1,0 +1,997 @@
+html
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 0;
+	margin: 0 0;
+	letter-spacing: 1.3px;
+	font-family: "Open Sans";
+}
+a
+{
+	cursor: pointer;
+}
+a:hover
+{
+	text-decoration: none; 
+}
+.row
+{
+	margin: 0 0;
+}
+.masthead
+{
+	padding-left: 30px;
+	width: 100%;
+	background-color: rgba(255, 255, 255);
+	height: 96px;
+	border-bottom: 1px solid #BEBEBE;	
+}
+.mobnav
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	padding-left: 12px;
+	height: 40px;
+	width: 100%;
+	z-index: 100;
+	border-bottom: 1px solid #bbbbbb;
+}
+.mobnav img
+{
+	margin-top: 10px;
+	height: 20px;
+	width: 50px;
+}
+.mobnav i
+{
+	padding: 5px 5px;
+	margin-top: 7px;
+	margin-right: 11px;
+	font-size: 16px;
+	float: right;
+	color: black;
+}
+.mobnav i:hover
+{
+	border: 1px solid black;
+}
+.mobnav .far
+{
+	font-size: 20px;
+	display: none;
+}
+.moblist
+{
+	display: none;
+	position: fixed;
+	top: 40px;
+	background-color: white;
+	z-index: 90;
+	width: 100%;
+	height: 100%;
+}
+.moblist ul
+{
+	padding-left: 0px;
+	height: 100%;
+	list-style-type: none;
+}
+.moblist li
+{
+	background-color: white;
+	line-height: 55px;
+	font-size: 17px;
+	height: 20%;
+	max-height: 55px;
+	border-bottom: 1px solid #bbbbbb;
+	padding: 0 0;
+	text-align: center;
+}
+.moblink:hover
+{
+	color: #e8cd06;
+}
+.ylw-wrd
+{
+	color: #ead21b;
+}
+.logo
+{
+	margin-top: 14px;
+	height: 65px;
+	width: 160px;
+}
+.navigate
+{
+	font-family: "Open sans";
+	float: right;
+	width: 700px;
+	height: 100%;
+	padding-right: 0px;
+	padding-left: 0PX;
+	margin-bottom: 0px;
+}
+.navigate a
+{
+	color: #4f7279e3;
+}
+.navigate a:hover
+{
+	text-decoration: none;
+	color: #578fe4;
+}
+.navigate li
+{
+	float: right;
+	display: inline;
+	list-style: none;
+	margin-right: 50px;
+	margin-top: 35px;
+	font-size: 18px;
+	letter-spacing: normal;
+}
+.nfixed
+{
+	background-color: white;
+	z-index: 100;
+	display: none;
+	position: fixed;
+	top: 0px;
+	height: 50px;
+}
+.nfixed .logo
+{
+	height: 30px;
+	width: 75px;
+	margin-top: 11px;
+}
+.nfixed .navigate li
+{
+	margin-top: 12px;
+}
+.nav-juru
+{
+	color: #89000d;
+	font-weight: 600;
+}
+.nav-juru:hover
+{
+	color: #578fe4;
+}
+.panel1-header
+{
+	position: relative;
+	min-height: 550px;
+	width: 100%;
+	padding-bottom:40px;
+  	background-image: url("xyz.jpg");
+	background-position: 0% 60%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+   	border-bottom: 1px solid #4f7279e3;
+}
+.panel1-cap
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 195px;
+	text-align: center;
+	height: 400px;
+	width: 65%;
+}
+.panel1-header span
+{
+	color: white;
+	text-align: center; 
+	display: inline-block;
+	padding: 0 10px;
+	letter-spacing: 3px;
+}
+#p1head
+{
+	font-family: "Syncopate";
+	font-size: 45px;
+	font-weight: 700;
+}
+#p1sub
+{
+	font-family: "Open Sans";
+	padding-top: 30px;
+	font-size: 22px;
+	line-height: 29px;
+	font-weight: 600;
+}
+.juru-panel
+{
+	border: 1px solid #89000d;
+	min-height: 300px;
+	background-color: #89000d;
+}
+.juru-panel-cont
+{
+	width: 90%;
+	min-height: 300px;
+	padding-bottom: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+.juru-panel-logo
+{
+	margin-top: 35px;
+	text-align: center; 
+}
+.juru-panel-logo img
+{
+	height: 210px;
+}
+.juru-panel-mini-title
+{
+	font-weight: 600; 
+	font-size: 18px; 
+}
+.juru-panel-title
+{
+	color:  #89000d;
+	font-weight: 600;
+	font-size: 28px;
+}
+.juru-panel-text
+{
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 0px;
+	margin-top: 30px;
+}
+.juru-panel-desc-link
+{
+	margin-bottom: 5px;
+}
+.juru-panel-desc-link a
+{
+	width: auto;
+	font-weight: 700;
+	color:  #89000d;
+
+}
+.juru-panel-desc-link a:hover
+{
+	cursor: pointer;
+}
+.juru-panel-desc-link:active
+{
+	text-decoration: underline;
+}
+.what-panel
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 100%;
+	min-height: 515px;
+	padding-bottom: 35px;
+	background-image: url("whatpanelbg.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.panela-heading
+{
+	margin-top: 25px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-family: "Nunito";
+	font-size: 25px;
+	font-weight: 700;
+}
+.spl-header
+{
+	font-size: 38px;
+	color: #e8cd06;
+}
+.hrline
+{
+	border-bottom: 1px solid #BEBEBE;
+    height: 0px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+}
+.what-step
+{
+	text-align: center;
+	margin-top: 50px;
+	padding: 0 15px;
+}
+.what-step img
+{
+	height: 140px;
+	width: 230px;
+}
+.panela-sub
+{
+	margin-top: 38px;
+	font-size: 16px;
+}
+.who-panel
+{
+	text-align: center;
+	background-image: url("whopanelbg.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	min-height: 390px;
+	padding-bottom: 45px;
+}
+.who-panel .row
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.panelb-heading
+{
+	margin-top: 45px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-family: "Nunito";
+	font-size: 28px;
+	font-weight: 700;
+	color: #fdfdfd;
+}
+.panelb-sub
+{
+	margin-top: 40px;
+	font-size: 17px;
+	text-align: center;
+	color: #fdfdfd;
+}
+.why-panel
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 100%;
+	padding-bottom: 50px;
+	min-height: 515px;
+	background-image: url("whypanelbg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.why-feat
+{
+	text-align: center;
+	margin-top: 40px;
+}
+.why-feat img
+{
+	height: 150px;
+	width: 220px;
+}
+.title
+{
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.when-panel
+{
+	text-align: center;
+	background-image: url("whenpanelbg.jpeg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	min-height: 390px;
+	padding-bottom: 45px;
+}
+.when-panel .row
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.contact-panel
+{
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-image: url("wherepanelbg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 360px;
+	padding-bottom: 30px;
+	position: relative;
+}
+.clabel
+{
+	padding-left: 0px;
+	font-size: 17px;
+	font-weight: 600;
+	color: blue;
+}
+.cdeet
+{
+	color: blue;
+	font-size: 17px;
+}
+.when-det
+{
+	margin-top:20px;
+}
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    50%{    color: yellow; }
+    100%{   color: red;    }
+}
+.top-btn
+{
+	display: none;
+	border-radius: 50%;
+	color: #525252;
+	position: fixed;
+	padding-left: 13.5px;
+	padding-top: 11px;
+	bottom: 25px;
+	right: 15px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #525252;
+	background-color: #d2d2d2;
+	z-index: 1000; 
+}
+.copyright
+{
+	position: absolute;
+	bottom: 4px;
+	right: 3px;
+	font-size: 12px;
+	color: black;
+}
+.popup
+{
+	position: fixed;
+	z-index: 1001;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+}
+.popup-box
+{
+	letter-spacing: 1.3px;
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+  	transform: translate(-50%,-50%);
+  	width: 90%;
+	max-width: 670px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px 10px 10px 0px;
+}
+.juru-img
+{
+	height: 210px;
+	margin-top: 65px;
+}
+.juru-popup-mini-img
+{
+	height: 40px;
+	margin-bottom:5px;
+	display: none;
+}
+.popup-text
+{
+	display: inline-block;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 100%;
+}
+.popup-title
+{
+	display: block; 
+	color: #89000d;
+	font-size: 30px;
+	font-family: 'Nunito';
+	overflow-x: hidden	;
+}
+.popup-desc
+{
+	display: block;
+	font-weight: 600;
+	font-size: 20px;
+}
+.popup-list
+{
+	padding-inline-start: 30px;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+.popup-list li
+{
+	padding-top: 10px;
+	font-size: 15px;
+	color: #0c0c0c;
+}
+.popup-list .far
+{
+	margin-left: -30px;
+	padding-right: 7px;
+	vertical-align: middle;
+	font-size: 17px; 
+	color: #89000d;
+}
+.trial-btn
+{
+	padding: 3px 15px 5px 15px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	margin-top: 13px;
+	width: 130px;
+	display: inline-block;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #89000d;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+.trial-btn:hover
+{
+	cursor: pointer;
+}
+.trial-btn:active
+{
+	text-decoration: underline;
+}
+.sign-btn
+{
+	background-color: #828282;
+	color: #fbfbfb;
+	font-weight: 600;
+}
+#learn
+{
+	margin-left: -30px;
+	text-align: right; 
+	padding-top: 5px; 
+	padding-right: 15px;
+	font-weight: 600;
+}
+#learn:active
+{
+	text-decoration: underline;
+}
+.close-popup
+{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	height: 30px;
+	width: 40px;
+}
+.close-popup i
+{
+	font-size: 17px;
+	color: #8e8e8e;
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+  	transform: translate(-50%,-50%);
+}
+.close-popup
+{
+	cursor: pointer;
+}
+#popup-2
+{
+	display: none;
+}
+.popup-form-title
+{
+	margin-top: 5px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.popup-form
+{
+	padding-left: 0px;
+	margin-bottom: 0px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.popup-label
+{
+	margin-top: 12px;
+	margin-bottom: 4px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.popup-form-input
+{
+	display: block;
+	font-size: 16px;
+	padding-left: 7px;
+	height: 30px;
+	width: 250px;
+	border: 1px solid #a9a8a8;
+	border-radius: 4px;
+}
+.popup-form-input:focus
+{
+	outline: none;
+	border: 1px solid #89000d;
+}
+.popup-form-submit
+{
+	background-color: #89000d;
+	color: white;
+	margin-top: 17px;
+	margin-bottom:3px;
+	height: 35px;
+	width: 100px;
+	border: 1px solid transparent;
+	border-radius: 7px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.popup-form-submit:focus
+{
+	text-decoration: underline;
+}
+.input-error
+{
+	margin-top: 2px;
+	margin-bottom: 0px;
+	display: block;
+	font-size: 9px;
+	color: red;
+	font-style: italic;
+}
+.highlight-input-error
+{
+	border-color: red;
+}
+#popup-form-cancel
+{
+	margin-left: 15px;
+	height: 35px;
+	width: 100px;
+	border: 1px solid #c9c9c9;
+	border-radius: 7px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.popup-result
+{
+	display: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.juru-body
+{
+	letter-spacing: 1.3px;
+	background-image: url('jurubg.jpg')
+}
+.trial-box
+{
+	position: fixed;
+	top: 80px;
+	right: 0px;
+	width: 120px;
+	padding: 5px 10px;
+	font-size: 16px;
+	background-color: #89000d;
+	color: white;
+	font-weight: 600;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.trial-box:hover
+{
+	cursor: pointer;
+}
+.sign-box
+{
+	position: absolute;
+	top: 10px;
+	background-color: grey;
+	font-weight: normal;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.juru-cont
+{
+	min-height: 100%;
+	background-color: white;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 0px;
+}
+.juru-web-logo
+{
+	margin-top: 20px;
+	height: 175px;
+}
+.panel-juru-heading
+{
+	margin-top: 25px;
+	width: 100%;
+	text-align: left;
+	font-family: "Nunito";
+	font-size: 25px;
+	font-weight: 700;
+	padding-left: 30px;
+}
+.spl-juru-header
+{
+	font-size: 26px;
+	color: #d00703;
+	line-height: 34px;
+}
+.hrline-juru
+{
+	border-bottom: 2px solid #BEBEBE;
+    height: 0px;
+    width: 40%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.hrline-form
+{
+	border-bottom: 1px solid #89000d;
+    height: 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.panel-juru-sub
+{
+	padding-left: 45px;
+	padding-right: 35px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-align: justify;
+}
+.trial-click-here
+{
+	display: inline-block;
+	text-align: center;
+	padding: 5px 15px;
+	width: 150px;
+	background-color: #89000d;
+	color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-right: 15px;
+}
+.trial-click-here:hover
+{
+	cursor: pointer;
+}
+.sign-click-here
+{	
+	display: inline-block;
+	background-color: grey;
+	font-weight: normal;
+}
+@media (max-width: 980px)
+{
+	.juru-panel-logo
+	{
+		margin-top: 20px;
+	}
+	.juru-panel-logo img
+	{
+		height: 180px;
+	}
+	.juru-panel-text
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 10px;
+	}
+	.juru-cont
+	{
+		width: 90%;
+	}
+}
+@media (max-width: 900px)
+{
+	.masthead
+	{
+		display: none;
+	}
+	.nfixed
+	{
+		display: none;
+	}
+	.panel1-cap
+	{
+		width: 75%;
+	}
+	.mobnav
+	{
+		display: block;
+	}
+	.panel1-header
+	{
+		margin-top: 40px;
+	}
+	.spl-pad
+	{
+		margin-left: 15px;
+	}
+	.cdeet
+	{
+		padding-left: 0px;
+	}
+
+}
+@media(max-width: 790px)
+{
+	.panel-juru-sub
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media (max-width: 768px)
+{
+	.popup-text
+	{
+		padding-left: 20px;
+	}
+	.juru-img
+	{
+		margin-top: 10px;
+		height: 160px;
+	}
+}
+@media (max-width: 600px)
+{
+	#p1sub
+	{
+		font-size: 18px;
+	}
+	.panel1-header
+	{
+		margin-top: 40px;
+		min-height: 50px;
+	}
+	.panel1-cap
+	{
+		padding-top: 85px;
+		width: 100%;
+	}
+	.panela-sub
+	{
+		margin-top: 30px;
+	}
+	.juru-cont
+	{
+		width: 100%;
+	}
+	.spl-juru-header
+	{
+		font-size: 22px; 
+	}
+	.panel-juru-heading
+	{
+		font-size: 22px; 
+		padding-left: 25px;
+		margin-top: 15px;
+	}
+	.hrline-juru
+	{
+		width: 100%;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	.panel-juru-sub
+	{
+		font-size: 14px;
+	}
+	.trial-box
+	{
+		top: 70px;
+		font-size: 12px;
+		width: 85px;
+		padding: 7px 0px 7px 5px;
+	}
+	.sign-box
+	{
+		top: 10px;
+	}
+}
+@media (max-width: 550px)
+{   
+	.juru-panel-cont
+	{
+		width: 98%;
+	}
+	.juru-panel-logo img
+	{
+		height: 140px;
+	}
+	.juru-panel-text
+	{
+		padding-left: 15px;
+		padding-right: 5px;
+		margin-top: 10px;
+	}
+	.juru-panel-desc-link
+	{
+		margin-bottom: 20px;
+	}
+	.juru-popup-mini-img
+	{
+		display: inline-block;
+	}
+	.juru-img
+	{
+		display: none;
+	}
+	#learn
+	{
+		text-align: center;
+		padding-right: 0px;
+		margin-bottom: 10px; 
+	}
+	.trial-btn
+	{
+		display: block;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+		padding: 5px 19px;
+	}
+	.popup-title
+	{
+		font-size: 22px;
+	}
+	.popup-desc
+	{
+		font-size: 15px;
+	}
+	.popup-list li
+	{
+		font-size: 14px;
+	}
+}
+@media (max-height: 560px)
+{
+	.trial-btn
+	{
+		display: inline-block;
+		padding: 3px 10px 5px 10px;
+		margin-right: 10px;
+		width: 110px;
+		font-size: 11px;
+	}
+}
